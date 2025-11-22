@@ -1,0 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --grid-color: #142F32;
+    --box-color: #E3FFCC;
+    --footer-color: #282930;
+    --ashlike-color: #777C90;
+}
