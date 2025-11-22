@@ -2,6 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
 }
 
 :root {
@@ -9,4 +14,150 @@
     --box-color: #E3FFCC;
     --footer-color: #282930;
     --ashlike-color: #777C90;
+    --header-color1: #fafafa;
+    --header-color2: #F0EAD6;
 }
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--header-color1);
+  justify-content: space-between;
+  align-items: center;
+  height: 5em;
+  margin-bottom: 4em;
+}
+
+nav {
+  flex-grow: 0.2;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(51, 49, 49);
+
+}
+
+li a:hover {
+  opacity: 0.8;
+}
+
+.sign-up-btn {
+  margin-right: 4em;
+  background-color: #1f484d;
+  color: white;
+  padding: 1.1em 1.9em 1.1em 1.9em;
+  border: none;
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+.sign-up-btn:hover {
+  opacity: 0.8;
+}
+
+.header-logo {
+  margin-left: 4em;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+
+.the-future-h1 {
+  font-size: 3.9rem;
+  color: #2d3131;
+  margin-left: 3.5em;
+  width: 60%;
+}
+
+.latest-technology {
+  color: #1f484d;
+}
+
+.expert-tech {
+  font-size: 500;
+  font-weight: 450;
+  margin-top: -3.5em;
+  margin-left: 31.5em;
+}
+
+.hero-section {
+  overflow: hidden;
+  width: 100%;
+}
+
+.get-try-btn-container {
+  margin-left: 42.5em;
+  margin-top: 2em;
+}
+
+.get-started-btn {
+  background-color: #1f484d;
+  color: white;
+  padding: 0.9em 1.5em 0.9em 1.5em;
+  border: none;
+  border-radius: 2em;
+  margin-right: 0.5em;
+  font-weight: bold;
+}
+
+.try-dem-btn {
+  background-color: white;
+  color: black;
+  padding: 0.9em 1.8em 0.9em 1.8em;
+  border: solid 0.1px rgba(236, 231, 231, 0.822);
+  border-radius: 2em;
+  font-weight: bold;
+}
+
+.arrow-img {
+  height: 20px;
+  margin-top: 3px;
+}
+
+.file-img {
+  height: 22px;
+}
+
+
+.sparkling-star-btn {
+  background-color: #1f484d;
+  border: none;
+  padding: 0.6em 0.7em 0.6em 0.7em;
+  border-radius: 2em;
+  z-index: 10;
+  margin-top: -20em;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+.arrow-btn {
+  background-color: transparent;
+  padding: 0.7em 0.95em 0.7em 0.95em;
+  border: solid 2.2px #1f484d;
+  border-radius: 2em;
+  margin-left: 2em; 
+  margin-top: -100em;
+  
+}
+
+.file-btn {
+  background-color: #dbf8c3;
+  border: none;
+  padding: 0.5em 0.7em 0.5em 0.7em;
+  border-radius: 2em;
+}
+
+
