@@ -198,3 +198,23 @@ li a:hover {
   height: 20px;
   margin-top: 2px;
 }
+
+.from-eigty-plus {
+  margin-left: 0.5em;
+}
+
+.from-eigty-span {
+  color: grey;
+}
+
+.five-point-o {
+  margin-left: 8em;
+  margin-top: -1.5em;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(43, 41, 41);
+}
+
+.star {
+  height: 20px;
+}
