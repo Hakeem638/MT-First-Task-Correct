@@ -218,3 +218,14 @@ li a:hover {
 .star {
   height: 20px;
 }
+
+.rating-container {
+  margin-top: 2.2em;
+  margin-bottom: 2em;
+  margin-left: 45em;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+}
