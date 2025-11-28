@@ -411,6 +411,30 @@ li a:hover {
 
 }
 
+.light-beam-icon {
+  height: 40px;
+  width: 40px;
+  margin-left: 1.5em;
+  margin-bottom: 0.5em;
+}
+.efficient-section-arrow {
+  height: 25px;
+  margin-left: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.efficiency-arrow-btn {
+  background-color: transparent;
+  border: none;
+  width: 30px;
+}
+
+.prodution-btn-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
 .one-two-six {
   color: aquamarine;
 }
