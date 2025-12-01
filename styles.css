@@ -404,7 +404,7 @@ li a:hover {
 }
 
 .efficient-section-grid-div div {
-  background-color:#33595e36;
+  background-color:#33595e18;
   border-radius: 15px;
   height: 150px;
   display: flex;
@@ -412,6 +412,7 @@ li a:hover {
   justify-content: center;
   height: 300px;
   width: 480px;
+  padding-bottom: 0.5em;
 
 }
 
@@ -438,6 +439,17 @@ li a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.all-grid-txt-container h3 {
+  margin-left: 2.5em;
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+}
+
+.all-grid-txt-container p {
+  margin-left: 3.7em;
+  margin-top: 0.4em;
 }
 
 .one-two-six {
