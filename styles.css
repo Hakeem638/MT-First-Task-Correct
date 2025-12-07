@@ -470,6 +470,31 @@ li a:hover {
   margin-top: 1.5em;
 }
 
+.key-benefits-section {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  width: 80%;
+  margin-top: 6em;
+}
+
+.total-projects-flex-container {
+  background-color: rgb(243, 238, 238);
+  height: 580px;
+  width: 560px;
+  border-radius: 20px;
+}
+
+.total-projects-graph-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 380px;
+  height: 450px;
+  border-radius: 10px;
+}
+
 .one-two-six, .three-four{
   color: aquamarine;
 }
