@@ -497,6 +497,22 @@ li a:hover {
   margin-top: 3.7em;
 }
 
+.total-projects-graph-card-txt h3 {
+  color: #777C90;
+  font-weight: 500;
+  font-size: 1.05em;
+}
+
+.total-projects-graph-card-txt p {
+  font-weight: 700;
+  font-size: larger;
+}
+
+.total-projects-graph-card-txt span {
+  font-size: medium;
+  font-weight: 500;
+}
+
 .total-projects-graph-card-graphtxt {
   margin-left: 2em;
   margin-top: 2em;
