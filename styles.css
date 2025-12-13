@@ -628,6 +628,36 @@ progress::-webkit-progress-value {
   height: 95px;
 }
 
+.all-key-benefits-txt h1 {
+  font-size: 2.7em;
+  color: #121313;
+}
+
+.all-key-benefits-txt p {
+  font-size: 1.09em;
+  color: #555959;
+  margin-top: 1em;
+}
+
+.our-systems-p {
+  margin-bottom: 2.5em;
+}
+
+.checks-icon {
+  height: 20px;
+  margin-right: 0.6em;
+}
+
+.bullet-txt-container h3 {
+  font-size: 1.3em;
+  margin-top: 1em;
+}
+
+.bullet-txt-container p {
+  margin-top: 0.5em;
+  margin-left: 2em;
+}
+
 .one-two-six, .three-four{
   color: aquamarine;
 }
