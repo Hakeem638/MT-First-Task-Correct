@@ -658,6 +658,22 @@ progress::-webkit-progress-value {
   margin-left: 2em;
 }
 
+.tailored-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin-top: 6em;
+}
+
+.tailored-grid-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
 .one-two-six, .three-four{
   color: aquamarine;
 }
