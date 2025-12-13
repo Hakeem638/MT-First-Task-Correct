@@ -559,6 +559,25 @@ progress::-webkit-progress-value {
   background-color: #e9ecf3;
 }
 
+.progress-bar-container label {
+  font-size: small;
+  font-weight: 500;
+  color: #7d808a;
+}
+
+.progress-bar-container span {
+  font-size: small;
+  font-weight: 500;
+}
+
+.total-projects-graph-card-graphtxt hr {
+  opacity: 0.1;
+  margin-left: -5px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  width: 94%;
+}
+
 .one-two-six, .three-four{
   color: aquamarine;
 }
