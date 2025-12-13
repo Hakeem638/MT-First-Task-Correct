@@ -497,6 +497,11 @@ li a:hover {
   margin-top: 3.7em;
 }
 
+.total-projects-graph-card-graphtxt {
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
 .total-projects-bottom-div {
   display: flex;
   flex-direction: column;
@@ -510,6 +515,48 @@ li a:hover {
   justify-content: center;
   z-index: 10;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+}
+
+.green-arrow {
+  height: 13px;
+  background-color: rgb(230, 248, 242);
+  border-radius: 7px;
+  margin-top: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.4em;
+}
+
+.progress-bar-container div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+  margin-right: 2em;
+}
+
+#in-progress-bar{
+  margin-left: -1.2em;
+}
+
+#rejected-progress-bar{
+  margin-left: -0.5em;
+}
+
+progress {
+  height: 20px;
+  -webkit-appearance: none;
+  appearance: none;
+
+}
+
+progress::-webkit-progress-bar {
+  background-color: transparent;
+}
+
+progress::-webkit-progress-value {
+  border-radius: 3px;
+  background-color: #e9ecf3;
 }
 
 .one-two-six, .three-four{
