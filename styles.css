@@ -643,7 +643,7 @@ progress::-webkit-progress-value {
   margin-bottom: 2.5em;
 }
 
-.checks-icon {
+.checks-icon, .check-icon{
   height: 20px;
   margin-right: 0.6em;
 }
@@ -674,6 +674,48 @@ progress::-webkit-progress-value {
   gap: 30px;
   width: 65%;
 
+}
+
+.enterprise-div, .started-div {
+  background-color: rgba(128, 128, 128, 0.233);
+  height: 550px;
+  border-radius: 25px;
+}
+
+.started-down-txt-container {
+  margin-left: 1.9em;
+}
+
+.started-down-txt-container p {
+  margin-top: 1em;
+  font-weight: 200;
+}
+
+.features-divider-div {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-weight: 200;
+}
+
+.features-divider-div::before {
+  content: "";
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.534);
+  width: 60%;
+  margin-left: 4.2em;
+}
+
+.features-divider-div::after {
+  content: "";
+  height: 1px;
+  background-color: grey;
+  width: 60%;
+  margin-left: 1em;
 }
 
 .tailored-professional-container {
