@@ -668,6 +668,24 @@ progress::-webkit-progress-value {
   margin-top: 6em;
 }
 
+.tailored-txt-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6em;
+}
+
+.tailored-txt-container h1 {
+  font-size: 2.5em;
+}
+
+.tailored-txt-container p {
+  font-weight: 200;
+  margin-top: 2em; 
+  margin-bottom: 5em; 
+}
+
 .tailored-grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -682,8 +700,42 @@ progress::-webkit-progress-value {
   border-radius: 25px;
 }
 
+.started-top-txt-container {
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+.started-top-txt-container h3 {
+  font-size: 1.6em;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+.started-top-txt-container p {
+  font-weight: 200; 
+}
+
+.price-p {
+  margin-top: 2em;
+}
+
+.dollar-span {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.started-top-txt-container button {
+  background-color: transparent;
+  color: white;
+  border: solid 2px white;
+  padding: 1em 15em 1em 15em;
+  border-radius: 2em;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
 .started-down-txt-container {
-  margin-left: 1.9em;
+  margin-left: 2em;
 }
 
 .started-down-txt-container p {
