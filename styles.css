@@ -807,6 +807,41 @@ progress::-webkit-progress-value {
   margin-top: 2em;
 }
 
+.empowering-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  background-color: white;
+}
+
+.empowering-txt-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: -4em;
+}
+
+.empowering-txt-container h1 {
+  font-size: 2.7em;
+  
+}
+
+.empowering-txt-container p {
+  font-size: 1.13em;
+}
+
+.circle-apps {
+  margin-right: -4em;
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
+.circle-apps img {
+  height: 470px;
+  width: 600px;
+}
+
 .one-two-six, .three-four{
   color: aquamarine;
 }
