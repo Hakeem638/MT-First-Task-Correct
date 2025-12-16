@@ -824,11 +824,14 @@ progress::-webkit-progress-value {
 
 .empowering-txt-container h1 {
   font-size: 2.7em;
+  margin-bottom: 0.35em;
   
 }
 
 .empowering-txt-container p {
   font-size: 1.13em;
+  margin-top: 0.3em;
+  color: #777C90;
 }
 
 .circle-apps {
