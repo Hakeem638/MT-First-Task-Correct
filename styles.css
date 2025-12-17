@@ -834,6 +834,18 @@ progress::-webkit-progress-value {
   color: #777C90;
 }
 
+.empowering-txt-container button {
+  background-color: var(--box-color);
+  border: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  width: 170px;
+  padding: 0.9em 1em 0.9em 1em;
+  border-radius: 2em;
+  margin-top: 2.5em;
+  cursor: pointer;
+}
+
 .circle-apps {
   margin-right: -4em;
   margin-top: 6em;
